@@ -28,6 +28,6 @@ void quicksort(std::vector<int>& arr, int low, int high) {
 std::vector<int> sort_main(std::vector<int> x) {
     std::vector<int> arr = x;
     quicksort(arr, 0, arr.size() - 1);
-    for (int i = 0; i < arr.size(); i++);
+    // for (int i = 0; i < arr.size(); i++);
     return arr;
 }
