@@ -104,4 +104,12 @@ namespace fun {
 
 		return re;
 	}
+	
+	int rightRotate(int n, unsigned int d) {
+	return (n >> d) | (n << (32 - d));
+	}
+
+	int leftRotate(int n, unsigned int d) {
+		return rightRotate(n, 32 - d);
+	}
 }
